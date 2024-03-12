@@ -14,7 +14,7 @@ If you installed Mantis under IIS and want to have single signon with AD, all yo
 2. Ensure Integrated Windows Authentication is ticked <br>
 
 Users listed in the user-table with their windows username, will be automatically logged on.<br>
-In all other cases the normnal Mantis login screen will appear.
+In all other cases the normnl Mantis login screen will appear.
 
 ## Requirements
     - Mantis 2.00
