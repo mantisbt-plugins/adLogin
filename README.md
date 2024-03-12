@@ -37,7 +37,7 @@ Add these just before the comment line stating:<br>
  - &#35; ok, we're good to login now
 
 In addition, one can uncomment the line:<br>
-	- &#35; user_increment_login_count( $t_user_id );<br>
+	&#35; user_increment_login_count( $t_user_id );<br>
 It should look like:<br>
 	- user_increment_login_count( $t_user_id );<br>
 In that case still all logins are counted.	
