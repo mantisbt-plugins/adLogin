@@ -1,0 +1,3 @@
+Version: 2.01  #
+Devurl: https://github.com/mantisbt-plugins/adLogin/blob/main/version.txt #
+Location: https://github.com/mantisbt-plugins/adLogin/archive/refs/heads/main.zip #
