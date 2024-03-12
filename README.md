@@ -2,10 +2,9 @@
 # 	adLogin Plugin
 
   - Version 2.01
-  - 2020 - 2024
 
 ## Copyright
-  -  Cas Nuy ( www.NUY.info )
+  -  2024 Cas Nuy ( www.NUY.info )
 
 ## Description
 
