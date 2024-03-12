@@ -34,7 +34,7 @@ In order to overcome this, one needs to add 3 lines at the end of this function:
 	- auth_set_tokens( $t_user_id );
 	
 Add these just before the comment line stating:<br>
- - &#35; ok, we're good to login now
+ &#35; ok, we're good to login now
 
 In addition, one can uncomment the line:<br>
 	&#35; user_increment_login_count( $t_user_id );<br>
