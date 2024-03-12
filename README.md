@@ -12,6 +12,7 @@ This plugin allows for integrated login with AD credentials.
 If you installed Mantis under IIS and want to have single signon with AD, all you need to do is the following: 
 1. Disable Anonymous access for the Mantis website 
 2. Ensure Integrated Windows Authentication is ticked <br>
+
 Users listed in the user-table with their windows username, will be automatically logged on.<br>
 In all other cases the normnal Mantis login screen will appear.
 
