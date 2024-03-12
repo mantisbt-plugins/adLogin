@@ -42,7 +42,7 @@ It should look like:<br>
 	- user_increment_login_count( $t_user_id );<br>
 In that case still all logins are counted.	
 
-### Disclaimer
+## Disclaimer
 
 The change mentioned above can bring additional security risks in case Mantis is on the WWW opposite an intranet.
 
