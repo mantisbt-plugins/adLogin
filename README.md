@@ -17,7 +17,6 @@ In all other cases the normnal Mantis login screen will appear.
 
 ## Requirements
     - Mantis 2.00
-  	2020 plugin by Cas Nuy www.NUY.info
  
 ## Installation                                                                             
  
@@ -29,13 +28,12 @@ This plugin uses the function auth_attempt_script_login, which in the past was e
 As of version 1.2.x this function offers less functionality than before.
 This fuction is available in core\authentication_api.php
 In order to overcome this, one needs to add 3 lines at the end of this function:
-# set the cookies
 	- $p_perm_login=false;
 	- auth_set_cookies( $t_user_id, $p_perm_login );
 	- auth_set_tokens( $t_user_id );
 	
 Add these just before the comment line stating:
-# ok, we're good to login now
+ - # ok, we're good to login now
 
 In addition, one can uncomment the line:
 	# user_increment_login_count( $t_user_id );
