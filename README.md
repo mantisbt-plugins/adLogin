@@ -43,7 +43,7 @@ In that case still all logins are counted.
 
 ### Disclaimer
 
-The change mentioned above can bring additional security risks in case you Mantis is on the WWW opposite an intranet.
+The change mentioned above can bring additional security risks in case Mantis is on the WWW opposite an intranet.
 
 ## Configuration options                                                                      
  
