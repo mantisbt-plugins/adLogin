@@ -29,9 +29,9 @@ This plugin uses the function auth_attempt_script_login, which in the past was e
 As of version 1.2.x this function offers less functionality than before.
 This fuction is available in core\authentication_api.php
 In order to overcome this, one needs to add 3 lines at the end of this function:<br>
-	- $p_perm_login=false;<br>
-	- auth_set_cookies( $t_user_id, $p_perm_login );<br>
-	- auth_set_tokens( $t_user_id );<br>
+$p_perm_login=false;<br>
+auth_set_cookies( $t_user_id, $p_perm_login );<br>
+auth_set_tokens( $t_user_id );<br>
 	
 Add these just before the comment line stating:<br>
  &#35; ok, we're good to login now
